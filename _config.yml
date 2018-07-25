@@ -1,0 +1,60 @@
+# Site settings
+title: 李昊的博客
+email: hao.x.li@intel.com
+description: "生命不息，折腾不止"
+keyword: "Blog, Web, JavaScript"
+
+# Author 配置博主信息
+author: '李昊'
+bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
+avatar: '/assets/img/profile.jpg'
+
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /blog/:year/:month/:day/:title.html
+
+# Build settings
+markdown: kramdown
+
+nav:
+  home: '/'
+  tags: '/tags.html'
+
+# Footer
+footer:
+  since: 2017
+
+# Search
+search: true
+
+# Night mode
+nightMode: true
+
+# Comments 评论功能
+comments:
+  disqus: false
+  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# Build settings
+paginate: 2
+paginate_path: 'blog/page:num'
+exclude: ['.gitignore', 'README.md']
+
+# Plugins
+plugins: [jekyll-paginate]
